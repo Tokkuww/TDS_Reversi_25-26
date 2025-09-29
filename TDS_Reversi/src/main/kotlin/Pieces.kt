@@ -1,4 +1,8 @@
 package org.example
 
-class Pieces {
-}
+
+data class Pieces constructor(
+
+    val color: Char,
+    val position : Position
+)
